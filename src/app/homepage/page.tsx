@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from './components/HeroSection';
-import CollectionsBentoSection from './components/CollectionsBentoSection';
 import CraftStorySection from './components/CraftStorySection';
 import BestsellersSection from './components/BestsellersSection';
 import TestimonialsCTASection from './components/TestimonialsCTASection';
