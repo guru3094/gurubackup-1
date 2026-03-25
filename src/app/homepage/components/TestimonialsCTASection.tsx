@@ -201,11 +201,8 @@ export default function TestimonialsCTASection() {
               <div className="mt-12 flex flex-wrap items-center justify-center gap-10 border-t border-white/5 pt-10">
                 {[
 <<<<<<< HEAD
-                { v: '4.9 / 5', l: 'Avg. Rating' },
-=======
-                { v: '2,400+', l: 'Happy Customers' },
-                { v: '4.9 / 5', l: 'Avg. Rating' },
-                { v: 'Free', l: 'US Shipping $50+' }]?.
+             
+                { v: '5 / 5', l: 'Avg. Rating' },
 >>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
                 map((s) =>
                 <div key={s?.l} className="text-center">
