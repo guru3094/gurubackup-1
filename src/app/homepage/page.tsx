@@ -2,6 +2,10 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from './components/HeroSection';
+<<<<<<< HEAD
+=======
+import CollectionsBentoSection from './components/CollectionsBentoSection';
+>>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
 import CraftStorySection from './components/CraftStorySection';
 import BestsellersSection from './components/BestsellersSection';
 import TestimonialsCTASection from './components/TestimonialsCTASection';

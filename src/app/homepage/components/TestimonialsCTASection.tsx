@@ -170,14 +170,29 @@ export default function TestimonialsCTASection() {
               </h2>
 
               <p className="text-lg text-white/50 max-w-xl mx-auto font-light leading-relaxed">
+<<<<<<< HEAD
                 Join our customers who've discovered the magic of resin art — whether you're buying a one-of-a-kind piece or learning to pour your own.
+=======
+                Join 2,400+ customers who've discovered the magic of resin art — whether you're buying a one-of-a-kind piece or learning to pour your own.
+>>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
                 <Link
                   href="/products"
                   className="group inline-flex h-14 items-center justify-center rounded-full bg-white px-10 text-sm font-bold text-foreground hover:bg-primary hover:text-white transition-all duration-500 uppercase tracking-[0.2em] gap-3">
+<<<<<<< HEAD
 
+=======
+                  
+                  Shop the Collection
+                  <span className="group-hover:translate-x-1 transition-transform inline-block">→</span>
+                </Link>
+                <Link
+                  href="/homepage#cta"
+                  className="inline-flex h-14 items-center justify-center rounded-full border border-white/20 px-10 text-sm font-medium text-white hover:bg-white/10 backdrop-blur-sm transition-all uppercase tracking-[0.2em]">
+                  
+>>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
                   Join a Workshop
                 </Link>
               </div>
@@ -185,7 +200,13 @@ export default function TestimonialsCTASection() {
               {/* Stats */}
               <div className="mt-12 flex flex-wrap items-center justify-center gap-10 border-t border-white/5 pt-10">
                 {[
+<<<<<<< HEAD
                 { v: '4.9 / 5', l: 'Avg. Rating' },
+=======
+                { v: '2,400+', l: 'Happy Customers' },
+                { v: '4.9 / 5', l: 'Avg. Rating' },
+                { v: 'Free', l: 'US Shipping $50+' }]?.
+>>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
                 map((s) =>
                 <div key={s?.l} className="text-center">
                     <p className="font-display text-2xl font-bold text-white">{s?.v}</p>
@@ -199,4 +220,8 @@ export default function TestimonialsCTASection() {
       </section>
     </>);
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 35f9b9eec83dde46189f36caee3217c7e8a30d65
